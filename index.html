@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>H2Tab — Facebook Feed Ads</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: #f0f2f5;
+    color: #050505;
+    padding: 32px 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .feed { max-width: 500px; margin: 0 auto; }
+  .stage {
+    font-size: 12px; color: #8a8d91; text-transform: uppercase;
+    letter-spacing: .04em; margin: 0 0 8px 4px; font-weight: 600;
+  }
+  .card {
+    background: #fff; border-radius: 8px; margin-bottom: 28px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1); overflow: hidden;
+  }
+  .head { display: flex; align-items: center; gap: 8px; padding: 12px 16px 0; }
+  .avatar {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: #1877f2; color: #fff; font-weight: 700; font-size: 15px;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .name { font-weight: 600; font-size: 15px; line-height: 1.2; }
+  .sponsored { font-size: 13px; color: #65676b; line-height: 1.4; }
+  .menu { margin-left: auto; color: #65676b; font-size: 20px; line-height: 1; }
+  .body {
+    font-size: 15px; line-height: 1.4; color: #050505;
+    padding: 12px 16px; white-space: pre-line;
+  }
+  .creative {
+    height: 280px; background: #e4e6eb;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 6px; border-top: 1px solid #ced0d4;
+  }
+  .creative .ph { font-size: 13px; color: #8a8d91; font-weight: 600; }
+  .creative .dim { font-size: 12px; color: #b0b3b8; }
+  .linkbar {
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px 16px; background: #f0f2f5; border-top: 1px solid #dadde1;
+  }
+  .linktext { min-width: 0; flex: 1; }
+  .domain {
+    font-size: 12px; color: #65676b; text-transform: uppercase;
+    letter-spacing: .02em; margin-bottom: 3px;
+  }
+  .headline { font-size: 16px; font-weight: 600; line-height: 1.25; margin-bottom: 3px; }
+  .desc { font-size: 13px; color: #65676b; line-height: 1.3; }
+  .cta {
+    flex-shrink: 0; background: #e4e6eb; color: #050505;
+    font-size: 14px; font-weight: 600; padding: 9px 14px;
+    border-radius: 6px; white-space: nowrap;
+  }
+  .engagement {
+    display: flex; justify-content: space-around;
+    padding: 6px 16px; border-top: 1px solid #ced0d4;
+  }
+  .engagement span {
+    font-size: 14px; color: #65676b; font-weight: 600;
+    display: flex; align-items: center; gap: 6px; padding: 6px;
+  }
+</style>
+</head>
+<body>
+<div class="feed">
+
+  <!-- AD 1 — UNAWARE -->
+  <p class="stage">Ad 1 · Unaware</p>
+  <div class="card">
+    <div class="head">
+      <div class="avatar">H2</div>
+      <div><div class="name">H2Tab</div><div class="sponsored">Sponsored · &#127760;</div></div>
+      <div class="menu">&#8943;</div>
+    </div>
+    <div class="body">I used to think being tired all the time was just part of getting older.
+
+I'd sit down "for a minute" and not want to get back up. I figured that was just my age catching up with me.
+
+Turns out, it was because my body needed help protecting itself. As we get older, our body produces fewer of the things that help us bounce back from daily life.
+
+I started drinking hydrogen water every morning. One tablet, a glass of water, that's it.
+
+A few weeks in, I noticed I wasn't crashing in the afternoon anymore. I had energy left for the evening.
+
+I'm not saying it's magic. But I feel more like myself than I have in years.
+
+If you've been feeling the same way, it might be worth seeing what's behind it. &#128071;</div>
+    <div class="creative"><span class="ph">Ad creative</span><span class="dim">1080 &times; 1080</span></div>
+    <div class="linkbar">
+      <div class="linktext">
+        <div class="domain">H2TAB.COM</div>
+        <div class="headline">The morning habit that changed how I feel all day</div>
+        <div class="desc">The simple change I wish I'd made sooner</div>
+      </div>
+      <div class="cta">Learn More</div>
+    </div>
+    <div class="engagement"><span>&#128077; Like</span><span>&#128172; Comment</span><span>&#10150; Share</span></div>
+  </div>
+
+  <!-- AD 2 — PROBLEM AWARE -->
+  <p class="stage">Ad 2 · Problem aware</p>
+  <div class="card">
+    <div class="head">
+      <div class="avatar">H2</div>
+      <div><div class="name">H2Tab</div><div class="sponsored">Sponsored · &#127760;</div></div>
+      <div class="menu">&#8943;</div>
+    </div>
+    <div class="body">You're not lazy and you're not imagining it.
+
+As we age, our cells produce fewer antioxidants. That's why the afternoon crash, the stiff mornings, and the brain fog slowly creep through the years.
+
+Molecular hydrogen is the smallest antioxidant in existence. Small enough to reach your cells directly.
+
+Just drop one tablet in a glass of water each morning and drink.
+
+Thousands of people are adding it to their daily routine and feeling the difference. &#128071;</div>
+    <div class="creative"><span class="ph">Ad creative</span><span class="dim">1080 &times; 1080</span></div>
+    <div class="linkbar">
+      <div class="linktext">
+        <div class="domain">H2TAB.COM</div>
+        <div class="headline">For seniors who want to move with less effort</div>
+        <div class="desc">Join the thousands who changed their morning routine</div>
+      </div>
+      <div class="cta">Shop Now</div>
+    </div>
+    <div class="engagement"><span>&#128077; Like</span><span>&#128172; Comment</span><span>&#10150; Share</span></div>
+  </div>
+
+  <!-- AD 3 — SOLUTION AWARE -->
+  <p class="stage">Ad 3 · Solution aware</p>
+  <div class="card">
+    <div class="head">
+      <div class="avatar">H2</div>
+      <div><div class="name">H2Tab</div><div class="sponsored">Sponsored · &#127760;</div></div>
+      <div class="menu">&#8943;</div>
+    </div>
+    <div class="body">Not all hydrogen tablets are the same.
+
+Most generic tablets are too weak to make a difference. And a lot of hydrogen escapes before you even drink it. That's why some people try hydrogen water and feel nothing.
+
+H2Tab holds twice the hydrogen compared to generic tablets. <!-- OPEN ITEM: "fights inflammation" is a Meta-flagged claim type. Safe swap: "where it helps neutralize oxidation at the source." -->It absorbs rapidly and reaches your cells directly, where it fights inflammation and oxidation at the source.
+
+Backed by 25+ clinical studies. &#128071;</div>
+    <div class="creative"><span class="ph">Ad creative</span><span class="dim">1080 &times; 1080</span></div>
+    <div class="linkbar">
+      <div class="linktext">
+        <div class="domain">H2TAB.COM</div>
+        <div class="headline">Does your hydrogen tablet give you enough?</div>
+        <div class="desc">Not all hydrogen tablets are made equal</div>
+      </div>
+      <div class="cta">Shop Now</div>
+    </div>
+    <div class="engagement"><span>&#128077; Like</span><span>&#128172; Comment</span><span>&#10150; Share</span></div>
+  </div>
+
+  <!-- AD 4 — PRODUCT AWARE -->
+  <p class="stage">Ad 4 · Product aware</p>
+  <div class="card">
+    <div class="head">
+      <div class="avatar">H2</div>
+      <div><div class="name">H2Tab</div><div class="sponsored">Sponsored · &#127760;</div></div>
+      <div class="menu">&#8943;</div>
+    </div>
+    <div class="body">Still thinking about trying H2Tab?
+
+Here's what people your age are noticing after adding it to their morning routine:
+
+Less stiffness getting out of bed.
+More energy that lasts through the afternoon.
+A clearer head during the day.
+
+It's the simplest upgrade to your routine. One tablet and a glass of water.
+
+HSA/FSA eligible and pairs well with supplements you already take. &#128071;</div>
+    <div class="creative"><span class="ph">Ad creative</span><span class="dim">1080 &times; 1080</span></div>
+    <div class="linkbar">
+      <div class="linktext">
+        <div class="domain">H2TAB.COM</div>
+        <div class="headline">Have more energy playing with the grandkids</div>
+        <div class="desc">The easiest upgrade to your morning</div>
+      </div>
+      <div class="cta">Shop Now</div>
+    </div>
+    <div class="engagement"><span>&#128077; Like</span><span>&#128172; Comment</span><span>&#10150; Share</span></div>
+  </div>
+
+  <!-- AD 5 — MOST AWARE -->
+  <p class="stage">Ad 5 · Most aware</p>
+  <div class="card">
+    <div class="head">
+      <div class="avatar">H2</div>
+      <div><div class="name">H2Tab</div><div class="sponsored">Sponsored · &#127760;</div></div>
+      <div class="menu">&#8943;</div>
+    </div>
+    <div class="body">You already know what H2Tab can do.
+
+One tablet. A glass of water. Support your cells directly to have more energy for your day.
+
+Twice the strength compared to generic brands, backed by 25+ clinical studies. No artificial additives. HSA/FSA eligible.
+
+Start your morning routine today. &#128071;</div>
+    <div class="creative"><span class="ph">Ad creative</span><span class="dim">1080 &times; 1080</span></div>
+    <div class="linkbar">
+      <div class="linktext">
+        <div class="domain">H2TAB.COM</div>
+        <div class="headline">Support your body so it supports you too</div>
+        <div class="desc">Start your morning routine today</div>
+      </div>
+      <div class="cta">Shop Now</div>
+    </div>
+    <div class="engagement"><span>&#128077; Like</span><span>&#128172; Comment</span><span>&#10150; Share</span></div>
+  </div>
+
+</div>
+</body>
+</html>
